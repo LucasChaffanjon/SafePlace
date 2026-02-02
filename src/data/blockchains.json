@@ -1,0 +1,22 @@
+[
+  { "id": "eth", "name": "Ethereum" },
+  { "id": "sol", "name": "Solana" },
+  { "id": "base", "name": "Base" },
+  { "id": "bsc", "name": "BSC" },
+  { "id": "arbitrum", "name": "Arbitrum" },
+  { "id": "polygon", "name": "Polygon" },
+  { "id": "optimism", "name": "Optimism" },
+  { "id": "avalanche", "name": "Avalanche" },
+  { "id": "linea", "name": "Linea" },
+  { "id": "zksync", "name": "zkSync" },
+  { "id": "aptos", "name": "Aptos" },
+  { "id": "sui", "name": "Sui" },
+  { "id": "mantle", "name": "Mantle" },
+  { "id": "blast", "name": "Blast" },
+  { "id": "berachain", "name": "Berachain" },
+  { "id": "starknet", "name": "Starknet" },
+  { "id": "scroll", "name": "Scroll" },
+  { "id": "fantom", "name": "Fantom" },
+  { "id": "sei", "name": "Sei" },
+  { "id": "celestia", "name": "Celestia" }
+]
