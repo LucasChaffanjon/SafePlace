@@ -93,10 +93,13 @@ function App() {
         <div className="sidebar-footer">
           <button
             className="submit-btn"
-            onClick={() => alert("Submit coming soon!")}
+            onClick={() => {
+              window.open("https://forms.gle/QkkJjYmLwecQhxx68", "_blank");
+            }}
           >
             Submit Project
           </button>
+
           <div className="desktop-socials">
             <a href="#" className="twitter-link">
               <svg viewBox="0 0 24 24" width="22" height="22">
