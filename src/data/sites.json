@@ -1,4 +1,5 @@
 [
+  { "name": "Meria", "url": "https://www.meria.com", "category": "cex", "chains": ["all"] },
   { "name": "Uniswap", "url": "https://app.uniswap.org/", "category": "swap", "chains": ["eth", "base", "arbitrum", "polygon", "optimism", "bsc", "zksync"] },
   { "name": "PancakeSwap", "url": "https://pancakeswap.finance/swap", "category": "swap", "chains": ["bsc", "eth", "arbitrum", "base", "linea", "zksync"] },
   { "name": "Jupiter", "url": "https://jup.ag/", "category": "swap", "chains": ["sol"] },
@@ -96,6 +97,5 @@
   { "name": "Coinbase", "url": "https://coinbase.com", "category": "cex", "chains": ["all"] },
   { "name": "OKX", "url": "https://okx.com", "category": "cex", "chains": ["all"] },
   { "name": "Bybit", "url": "https://bybit.com", "category": "cex", "chains": ["all"] },
-  { "name": "Kraken", "url": "https://kraken.com", "category": "cex", "chains": ["all"] },
-  { "name": "Meria", "url": "https://www.meria.com", "category": "cex", "chains": ["all"] }
+  { "name": "Kraken", "url": "https://kraken.com", "category": "cex", "chains": ["all"] }
 ]
