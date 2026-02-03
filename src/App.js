@@ -47,14 +47,21 @@ function App() {
             <div className="logo-area">SafePlace</div>
           </div>
           <div className="mobile-socials">
-            <a href="#" className="twitter-link">
+            <button
+              type="button"
+              className="twitter-link"
+              aria-label="Twitter"
+              onClick={() =>
+                window.open("https://x.com", "_blank", "noopener,noreferrer")
+              }
+            >
               <svg viewBox="0 0 24 24" width="20" height="20">
                 <path
                   fill="#1a73e8"
                   d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"
                 />
               </svg>
-            </a>
+            </button>
           </div>
         </div>
 
@@ -101,14 +108,21 @@ function App() {
           </button>
 
           <div className="desktop-socials">
-            <a href="#" className="twitter-link">
+            <button
+              type="button"
+              className="twitter-link"
+              aria-label="Twitter"
+              onClick={() =>
+                window.open("https://x.com", "_blank", "noopener,noreferrer")
+              }
+            >
               <svg viewBox="0 0 24 24" width="22" height="22">
                 <path
                   fill="currentColor"
                   d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"
                 />
               </svg>
-            </a>
+            </button>
           </div>
         </div>
       </aside>
