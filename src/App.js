@@ -174,7 +174,7 @@ function App() {
           initial="hidden"
           animate="visible"
           variants={{
-            visible: { transition: { staggerChildren: 0.05 } },
+            visible: { transition: { staggerChildren: 0.02 } },
           }}
           key={`${selectedCategory}-${selectedChain}-${searchTerm}`}
         >
