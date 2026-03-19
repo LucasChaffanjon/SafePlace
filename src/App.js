@@ -195,7 +195,6 @@ function App() {
                 href={site.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                whileHover={{ scale: 1.05 }}
                 className="site-card"
               >
                 <div className="logo-wrapper">
