@@ -43,8 +43,12 @@ body {
           width: auto;
           object-fit: contain;
           transition: 0.2s;
-          &:hover {
-            transform: scale(1.05);
+
+          // Hover uniquement sur desktop avec souris réelle
+          @media (hover: hover) and (pointer: fine) {
+            &:hover {
+              transform: scale(1.05);
+            }
           }
         }
 
@@ -78,9 +82,14 @@ body {
         color: $text;
         font-size: 0.95rem;
         transition: all 0.2s;
-        &:hover {
-          background: $hover;
+
+        // Hover uniquement sur desktop avec souris réelle
+        @media (hover: hover) and (pointer: fine) {
+          &:hover {
+            background: $hover;
+          }
         }
+
         &.active {
           background: rgba($accent, 0.08);
           color: $accent;
@@ -108,8 +117,12 @@ body {
         font-weight: bold;
         cursor: pointer;
         transition: transform 0.2s;
-        &:hover {
-          transform: scale(1.02);
+
+        // Hover uniquement sur desktop avec souris réelle
+        @media (hover: hover) and (pointer: fine) {
+          &:hover {
+            transform: scale(1.02);
+          }
         }
       }
       .desktop-socials .twitter-link {
@@ -193,13 +206,18 @@ body {
           font-size: 0.85rem;
           cursor: pointer;
           transition: all 0.2s;
+
           &.active {
             background: $accent;
             color: #fff;
             border-color: $border;
           }
-          &:hover:not(.active) {
-            background: $hover;
+
+          // Hover uniquement sur desktop avec souris réelle
+          @media (hover: hover) and (pointer: fine) {
+            &:hover:not(.active) {
+              background: $hover;
+            }
           }
         }
       }
@@ -222,11 +240,15 @@ body {
       text-decoration: none;
       color: inherit;
       background: #fff;
-      transition: 0.2s;
-      &:hover {
-        border-color: $accent;
-        transform-origin: center;
-        transform: scale(1.05);
+      transition: border-color 0.2s, transform 0.2s;
+
+      // Hover + scale uniquement sur desktop avec souris réelle
+      @media (hover: hover) and (pointer: fine) {
+        &:hover {
+          border-color: $accent;
+          transform-origin: center;
+          transform: scale(1.05);
+        }
       }
 
       .logo-wrapper {
