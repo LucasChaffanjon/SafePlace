@@ -39,7 +39,6 @@ function App() {
 
   return (
     <div className="app-container">
-      {/* SIDEBAR */}
       <aside className="sidebar">
         <div className="sidebar-header">
           <div className="brand-wrapper">
@@ -126,8 +125,6 @@ function App() {
           </div>
         </div>
       </aside>
-
-      {/* MAIN CONTENT */}
       <main className="main-content">
         <header className="sticky-header">
           <div className="search-group">
