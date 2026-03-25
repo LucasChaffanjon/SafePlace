@@ -9,6 +9,7 @@
   { "name": "Curve", "url": "https://www.curve.finance/", "category": "swap", "chains": ["eth", "arbitrum", "polygon", "avalanche"] },
   { "name": "Sushi", "url": "https://www.sushi.com/ethereum/swap", "category": "swap", "chains": ["all"] },
   { "name": "CowSwap", "url": "https://cow.fi/", "category": "swap", "chains": ["eth", "arbitrum"] },
+  { "name": "Titan", "url": "https://titan.exchange/swap", "category": "swap", "chains": ["sol"] },
 
   { "name": "Lido", "url": "https://lido.fi/", "category": "staking", "chains": ["eth", "sol"] },
   { "name": "Rocket Pool", "url": "https://rocketpool.net/", "category": "staking", "chains": ["eth"] },
@@ -19,6 +20,7 @@
   { "name": "Puffer", "url": "https://www.puffer.fi/", "category": "staking", "chains": ["eth"] },
   { "name": "Kelp DAO", "url": "https://kerneldao.com/kelp/defi/", "category": "staking", "chains": ["eth"] },
   { "name": "Marinade", "url": "https://marinade.finance/", "category": "staking", "chains": ["sol"] },
+
 
 
   { "name": "Aave", "url": "https://app.aave.com", "category": "lending", "chains": ["eth", "arbitrum", "polygon", "base", "avalanche"] },
